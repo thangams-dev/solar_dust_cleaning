@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^mkdir -p training/data/raw/pv_defect training/data/raw/dust_detection training/data/processed training/data/heldout training/data/own training/reports training/splits training/logs model && \\.venv/bin/kaggle --version$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

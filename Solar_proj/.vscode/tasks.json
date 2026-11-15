@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Solar Insight Dashboard",
+			"type": "shell",
+			"command": "env",
+			"args": [
+				"PYTHONPATH=/home/thanga-inc-5829/.cache/solar-project-deps:/home/thanga-inc-5829/Solar_proj",
+				"/usr/bin/python3",
+				"-m",
+				"streamlit",
+				"run",
+				"app.py",
+				"--server.headless",
+				"true",
+				"--server.port",
+				"8501",
+				"--global.developmentMode",
+				"false"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

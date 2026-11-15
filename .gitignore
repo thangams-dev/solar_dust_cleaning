@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+own_photos/
+captures/
+training/data/
+training/cache/
+training/checkpoints/
+training/logs/
+*.pt
+*.docx
+.env
+training/reports/
+*.db
